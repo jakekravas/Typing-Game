@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+nav {
+  /* background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29); */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29);
+  color: #DBDBDB;
+}
+
+#user-input {
+  width: 50%;
+  text-align: center !important;
+}
+
+#current-word {
+  /* font-family: "Press Start 2P",; */
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+}
+
+.btn-mode {
+  border: 1px solid #40c4ff;
+  background: transparent;
+  color: #40c4ff;
+}
+
+.btn-mode-1 {
+  border-radius: 5px 0 0 5px;
+}
+
+.btn-mode-2 {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn-mode-active {
+  background-color: #40c4ff;
+  color: #f6f6f6;
+}
